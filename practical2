@@ -3,10 +3,9 @@ name = ' Bogdan'
 prizv = 'matuskho'
 age = '16'
 
-print(hello)
-print(name)
-print(prizv)
-print(age)
+
+massif = [hello, name, prizv, age]
+print(massif)
 
 Bogdan = [hello, name, prizv, age]
 
