@@ -1,23 +1,16 @@
 hello = 'hello world'
-name = ' Bogdan'
-prizv = 'matuskho'
+name = 'Bogdan'
+prizv = 'matiushko'
 age = '16'
 
-print(hello)
-print(name)
-print(prizv)
-print(age)
+print(hello, type(hello))
+print(name, type(name))
+print(prizv, type(prizv))
+print(age, type(age))
 
-variables = [hello, name, prizv, age]
-types = [type(var) for var in variables]
+list = [hello, name, prizv, age]
 
-print(types)
-
-if all(t == types[0] for t in types):
+if all(type(var) == type(list[0]) for var in list):
     print("good")
 else:
-       for i in range(len(types) - 1, -1, -1): 
-        if types[i] != types[0]:
-            del variables[i]
-
-       print("Змінні після видалення:", variables)
+    print("Типи відрізняються")
