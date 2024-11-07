@@ -1,7 +1,7 @@
 import telebot
 
 
-bot = telebot.TeleBot('7888289797:AAEODorqCP3D-bBbFHcphUUghzcifiFPTsk')
+bot = telebot.TeleBot('token')
 
 @bot.message_handler(content_types=["text"])
 def repeat_all_messages(message):
