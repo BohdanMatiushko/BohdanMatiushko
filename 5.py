@@ -3,13 +3,13 @@ import random
 import requests
 
 # Замініть на свій токен бота
-bot = telebot.TeleBot('7888289797:AAEODorqCP3D-bBbFHcphUUghzcifiFPTsk')
+bot = telebot.TeleBot('token')
 
-admin_chat_id = '1145237457'
+admin_chat_id = '**************'
 
 # API для отримання погоди
-API_KEY = '413169e82e1cc759d01346c075bfe086'
-BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
+API_KEY = 'key_API'
+BASE_URL = 'http********************'
 
 # Список жартів
 jokes = [
